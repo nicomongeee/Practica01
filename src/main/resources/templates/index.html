@@ -4,8 +4,8 @@
     xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Estados</title>
-        <meta charset="UTF-8"/>   
-        <link href="../static/estilos.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8"/> 
+        <link href="../staticc/css/estilo01.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>        
         <h2>Datos Estados</h2>
@@ -27,7 +27,7 @@
                     <td>[[${estado.capital}]]</td>
                     <td>[[${estado.poblacion}]]</td>
                     <td>[[${estado.cantidadCostas}]]</td>
-                    <td><a th:href="@{/estado/nuevo}">Agregar nuevo pais</a></td>
+                    <td><a th:href="@{/estado/nuevo}">Agregar</a></td>
                     <td><a th:href="@{/estado/elimina/} + ${estado.idEstado}">Elimina</a></td>
                     <td><a th:href="@{/estado/actualiza/} + ${estado.idEstado}">Actualiza</a></td>
 
